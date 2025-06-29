@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  background: #f9f9f9;
+  color: #333;
+}
+
+header, footer {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
+
+.repo {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 6px;
+}
+
+.repo a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  img {
+    width: 80px;
+    height: 80px;
+  }
+}
